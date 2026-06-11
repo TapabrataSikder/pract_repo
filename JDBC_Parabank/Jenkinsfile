@@ -29,7 +29,7 @@ pipeline {
     post {
         always {
             // Optional: Publish test results if you have JUnit/TestNG plugin installed
-            archiveArtifacts artifacts: 'ParabankAutomation/target/surefire-reports/*.xml', fingerprint: true
+            archiveArtifacts artifacts: 'JDBC_Parabank/target/surefire-reports/*.xml', fingerprint: true
         }
     }
 }
