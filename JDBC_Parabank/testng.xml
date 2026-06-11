@@ -1,0 +1,11 @@
+
+
+<suite name="Parabank suite">
+	<test name="Test">
+		<classes>
+            <class name="tests.ParabankTest" />
+        </classes>
+	
+	</test>
+
+</suite>
