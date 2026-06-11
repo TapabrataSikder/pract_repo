@@ -1,0 +1,22 @@
+pipeline{
+	agent any
+	tools{
+		maven 'maven3'
+		jdk 'java'
+	}
+	stages{
+		stage('Build & Test'){
+            steps{
+				dir('Php_travels'){
+                bat 'mvn clean install'
+                }
+            }
+        }
+	}
+	
+	post{
+		always{
+			archiveArtifacts artifacts: 'Php_travels/reports/surefrie-reports/**/*', fingerprint: true
+		}
+	}
+}
