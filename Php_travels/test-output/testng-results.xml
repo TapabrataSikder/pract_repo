@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-11T23:16:33 IST" name="Default suite" finished-at="2026-06-11T23:17:15 IST" duration-ms="42767">
+    <groups>
+    </groups>
+    <test started-at="2026-06-11T23:16:33 IST" name="Default test" finished-at="2026-06-11T23:17:15 IST" duration-ms="42767">
+      <class name="tests.PhpTest">
+        <test-method is-config="true" signature="iniate()[pri:0, instance:tests.PhpTest@5bda8e08]" started-at="2026-06-11T23:16:33 IST" name="iniate" finished-at="2026-06-11T23:16:41 IST" duration-ms="8171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PhpTest@5bda8e08]" started-at="2026-06-11T23:16:41 IST" name="setup" finished-at="2026-06-11T23:16:41 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userReg(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.PhpTest@5bda8e08]" started-at="2026-06-11T23:16:41 IST" name="userReg" data-provider="regData" finished-at="2026-06-11T23:16:56 IST" duration-ms="15134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ john@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ 123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userReg -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.PhpTest@5bda8e08]" started-at="2026-06-11T23:16:56 IST" name="teardown" finished-at="2026-06-11T23:16:57 IST" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="iniate()[pri:0, instance:tests.PhpTest@5bda8e08]" started-at="2026-06-11T23:16:57 IST" name="iniate" finished-at="2026-06-11T23:17:04 IST" duration-ms="6446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PhpTest@5bda8e08]" started-at="2026-06-11T23:17:04 IST" name="setup" finished-at="2026-06-11T23:17:04 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userReg(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.PhpTest@5bda8e08]" started-at="2026-06-11T23:17:04 IST" name="userReg" data-provider="regData" finished-at="2026-06-11T23:17:15 IST" duration-ms="11308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Math]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Harry]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ Math@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ 123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userReg -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.PhpTest@5bda8e08]" started-at="2026-06-11T23:17:15 IST" name="teardown" finished-at="2026-06-11T23:17:15 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.PhpTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

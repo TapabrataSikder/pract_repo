@@ -1,0 +1,7 @@
+<suite name="Php_suite">
+	<test name="Test">
+		<classes>
+			<class name= "tests.PhpTest" />
+		</classes>
+	</test>
+</suite>

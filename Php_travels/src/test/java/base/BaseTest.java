@@ -21,11 +21,11 @@ public class BaseTest {
 		driver.get("https://phptravels.net/");
 	}
 
-//	@AfterMethod
-//	public void teardown() {
-//		if(driver != null)
-//		{
-//			driver.quit();
-//		}
-//	}
+	@AfterMethod
+	public void teardown() {
+		if(driver != null)
+		{
+			driver.quit();
+		}
+	}
 }
